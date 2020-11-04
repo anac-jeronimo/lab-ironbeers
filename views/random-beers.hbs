@@ -1,9 +1,12 @@
 <div class="container">
-    <h1>RandomBeers</h1>
+    <h1>Random Beers</h1>
     <div class="row">
-        {{#each randomData}}
-              {{> beerParcials this}}  
-        {{/each}} 
+        <div class="col-md-12 align-center">
+            {{#each randomData}}
+                {{> beerParcials this}}  
+            {{/each}}
+        </div>
+         
       
      
     </div>
