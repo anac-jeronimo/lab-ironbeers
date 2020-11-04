@@ -73,7 +73,11 @@ footer{
     padding-top: 10px;
     padding-left:20px;
 }
-
+.cd-md-4{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 
